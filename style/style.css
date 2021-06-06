@@ -1,6 +1,41 @@
+/* .flex{
+    display: flex;
+    justify-content: space-between;
+    
+} */
 .head_title, ul{
     display: flex;
     justify-content: space-around;
     border: 1px solid black;
     list-style-type: none;
+    
+    
+}
+.head_title{
+    padding-right: 430px;
+ 
+}
+
+.succes{
+    background-color: green;
+}
+
+.no_succes{
+    background-color: red;
+}
+
+#ultrabook{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.show{
+    width: 143px;
+    height: 22px;
+}
+.more-inf{
+    display: none;
+}
+.close{
+    display: block;
 }

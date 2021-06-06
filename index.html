@@ -8,32 +8,86 @@
 </head>
     <body>
         <div class="container">
-            <form id="laptop">
-                
-                <div>
-                    <label for="title">Название</label>
-                    <input type="text" id="title" />
-                </div>
-                 <div>
-                    <label for="title">Размер Оперативной памяти</label>
-                    <input type="text" id="ram" />
-                </div>
-                <div>
-                    <label for="title">Год выпуска</label>
-                    <input type="text" id="year" />
-                </div>
-               
-                <div>
-                    <input type="submit" value="Добавить в каталог" />
-                </div>
-                
-            </form>
+          
+                <form id="laptop">
+                    <h2>LAPTOPS</h2>
+                    <div>
+                        <label for="title">Название</label>
+                        <input type="text" id="title" >
+                    </div>
+                    <div>
+                        <label for="title">Размер Оперативной памяти</label>
+                        <input type="text" id="ram" >
+                    </div>
+                    <div>
+                        <label for="title">Год выпуска</label>
+                        <input type="text" id="year" >
+                    </div>
+                    <div>
+                        <label for="title">Процессор</label>
+                        <input type="text" id="proc">
+                    </div>
+                    <div>
+                        <label for="title">Колличество ядер</label>
+                        <input type="text" id="core">
+                    </div>
+                    <div>
+                        <label for="title">Материал корпуса</label>
+                        <input type="text" id="material">
+                    </div>
+                    <div>
+                        <label for="title">Вес</label>
+                        <input type="text" id="weight">
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Добавить в каталог" >
+                    </div>
+                </form>
+                <form id="ultrabook">
+                    <h2>ULTRABOOKS</h2>
+                    <div>
+                        <label for="title">Название</label>
+                        <input type="text" id="U_title" >
+                    </div>
+                    <div>
+                        <label for="title">Размер Оперативной памяти</label>
+                        <input type="text" id="U_ram" >
+                    </div>
+                    <div>
+                        <label for="title">Год выпуска</label>
+                        <input type="text" id="U_year" >
+                    </div>
+                    <div>
+                        <label for="title">Процессор</label>
+                        <input type="text" id="U_proc">
+                    </div>
+                    <div>
+                        <label for="title">Колличество ядер</label>
+                        <input type="text" id="U_core">
+                    </div>
+                    <div>
+                        <label for="title">Материал корпуса</label>
+                        <input type="text" id="U_material">
+                    </div>
+                    <div>
+                        <label for="title">Вес</label>
+                        <input type="text" id="U_weight">
+                    </div>
+                    <div>
+                        <input type="submit" value="Добавить в каталог">
+                    </div>
+                </form>
+          
             <div id="list-laptops">
                 <ul class="head_title">
                     <li>Название</li>
                     <li>Размер ОЗУ</li>
                     <li>Год выпуска</li>
-                    <li>Действие</li>
+                    <li>Процессор</li>
+                    <li>Количество ядер</li>
+                    <li>Материал Корпуса</li>
+                    <li>Вес</li>
                 </ul>
             </div>
         </div>
@@ -41,6 +95,7 @@
 <script src="./js/sript.js"></script>
 <script src="./js/laptop.js"></script>
 <script src="./js/viewlaptop.js"></script>
+<script src="./js/viewUltrabook.js"></script>
 
 </body>
 </html>
