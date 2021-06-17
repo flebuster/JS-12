@@ -55,7 +55,7 @@ function deleteUlList(){
     var deleteUL = document.getElementsByClassName('delete');
     for(let button of deleteUL){
       button.addEventListener('click', function(){
-          button.parentElement.remove();
+          button.parentElement.parentElement.remove();
           event.preventDefault();
       })
     }
